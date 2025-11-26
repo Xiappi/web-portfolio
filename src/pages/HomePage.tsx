@@ -7,7 +7,7 @@ import type Project from "../models/Project";
 export default function HomePage() {
   return (
     <>
-      <div className="flex w-full pt-50 px-10">
+      <div className="flex w-full pt-60 px-10">
         <div className="flex-[3] px-10 flex flex-col justify-center ">
           <h1 className="mb-4 text-5xl font-bold tracking-tight text-heading ">
             Full-stack web and application engineer, and amateur snowboarder.
