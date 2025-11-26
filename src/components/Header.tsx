@@ -1,6 +1,6 @@
 import { NavLink } from "react-router";
 
-export default function FloatingNav() {
+export default function Header() {
   const baseStyle = "px-3 py-1 rounded-full transition font-medium";
   const inactive = "text-gray-700 hover:text-blue-500";
   const active = "text-white bg-blue-500 shadow-md";
