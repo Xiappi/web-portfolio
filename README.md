@@ -1,73 +1,100 @@
-# React + TypeScript + Vite
+# Web Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive portfolio website built with React, TypeScript, and Tailwind CSS. This project showcases personal projects, skills, and contact information in a clean, professional interface.
 
-Currently, two official plugins are available:
+## ?? Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Modern Stack**: Built with React 19, TypeScript, and Vite for fast development and optimal performance
+- **Responsive Design**: Styled with Tailwind CSS v4 for a beautiful, mobile-first experience
+- **Multi-Page Navigation**: Uses React Router for seamless page transitions
+- **Component Architecture**: Well-organized, reusable components for maintainability
+- **Type Safety**: Full TypeScript support for robust code quality
+- **Icon Support**: Material Design Icons integration via @mdi/react
 
-## React Compiler
+## ?? Project Structure
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```
+src/
+??? components/        # Reusable UI components
+?   ??? Header.tsx    # Navigation header
+?   ??? Footer.tsx    # Site footer
+?   ??? Layout.tsx    # Page layout wrapper
+?   ??? ProjectCard.tsx  # Project display card
+??? pages/            # Route pages
+?   ??? HomePage.tsx
+?   ??? AboutPage.tsx
+?   ??? ProjectsPage.tsx
+?   ??? ContactPage.tsx
+??? data/             # Static data
+?   ??? ProjectsData.ts
+??? models/           # TypeScript interfaces
+?   ??? Project.ts
+??? assets/           # Images and static files
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## ??? Tech Stack
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- **React 19** - UI library
+- **TypeScript** - Type safety
+- **Vite** - Build tool and dev server
+- **React Router 7** - Client-side routing
+- **Tailwind CSS 4** - Utility-first CSS framework
+- **Material Design Icons** - Icon library
+- **ESLint** - Code linting
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## ?? Getting Started
+
+### Prerequisites
+
+- Node.js (v18 or higher recommended)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Xiappi/web-portfolio.git
+cd web-portfolio
 ```
+
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Start the development server:
+
+```bash
+npm run dev
+```
+
+4. Open your browser and navigate to `http://localhost:5173`
+
+## ?? Available Scripts
+
+- `npm run dev` - Start development server with hot reload
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build locally
+- `npm run lint` - Run ESLint to check code quality
+
+## ??? Building for Production
+
+```bash
+npm run build
+```
+
+The optimized production build will be generated in the `dist/` directory.
+
+## ?? License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## ?? Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
+
+## ?? Contact
+
+For any inquiries, please visit the contact page on the live site.
