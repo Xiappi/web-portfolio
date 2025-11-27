@@ -3,6 +3,7 @@ import { mdiGithub, mdiLinkedin, mdiEmail } from "@mdi/js";
 import ProjectCard from "../components/ProjectCard";
 import { Projects } from "../data/ProjectsData";
 import type Project from "../models/Project";
+import profileImg from "../assets/profile.png";
 
 export default function HomePage() {
   return (
@@ -49,7 +50,7 @@ export default function HomePage() {
         </div>
         <div className="flex-[2] max-h-[50vh] flex items-center justify-center px-10 ">
           <img
-            src="src\assets\profile.png"
+            src={profileImg}
             alt="Profile"
             className="rounded-lg w-full h-full shadow-lg object-cover rotate-5 shadow-black"
           />
