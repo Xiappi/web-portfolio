@@ -4,7 +4,7 @@ import type Project from "../models/Project";
 
 export default function ProjectsPage() {
   return (
-    <div className="pt-50">
+    <div className="pt-50 px-10">
       <div className="p-10 flex flex-col justify-center ">
         <h1 className="mb-4 text-5xl font-bold tracking-tight text-heading ">
           Here are some of my projects
