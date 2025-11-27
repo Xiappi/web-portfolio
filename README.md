@@ -2,7 +2,7 @@
 
 A modern, responsive portfolio website built with React, TypeScript, and Tailwind CSS. This project showcases personal projects, skills, and contact information in a clean, professional interface.
 
-## ?? Features
+## Features
 
 - **Modern Stack**: Built with React 19, TypeScript, and Vite for fast development and optimal performance
 - **Responsive Design**: Styled with Tailwind CSS v4 for a beautiful, mobile-first experience
@@ -11,28 +11,7 @@ A modern, responsive portfolio website built with React, TypeScript, and Tailwin
 - **Type Safety**: Full TypeScript support for robust code quality
 - **Icon Support**: Material Design Icons integration via @mdi/react
 
-## ?? Project Structure
-
-```
-src/
-??? components/        # Reusable UI components
-?   ??? Header.tsx    # Navigation header
-?   ??? Footer.tsx    # Site footer
-?   ??? Layout.tsx    # Page layout wrapper
-?   ??? ProjectCard.tsx  # Project display card
-??? pages/            # Route pages
-?   ??? HomePage.tsx
-?   ??? AboutPage.tsx
-?   ??? ProjectsPage.tsx
-?   ??? ContactPage.tsx
-??? data/             # Static data
-?   ??? ProjectsData.ts
-??? models/           # TypeScript interfaces
-?   ??? Project.ts
-??? assets/           # Images and static files
-```
-
-## ??? Tech Stack
+## Tech Stack
 
 - **React 19** - UI library
 - **TypeScript** - Type safety
@@ -42,7 +21,7 @@ src/
 - **Material Design Icons** - Icon library
 - **ESLint** - Code linting
 
-## ?? Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -72,14 +51,14 @@ npm run dev
 
 4. Open your browser and navigate to `http://localhost:5173`
 
-## ?? Available Scripts
+## Available Scripts
 
 - `npm run dev` - Start development server with hot reload
 - `npm run build` - Build for production
 - `npm run preview` - Preview production build locally
 - `npm run lint` - Run ESLint to check code quality
 
-## ??? Building for Production
+## Building for Production
 
 ```bash
 npm run build
@@ -87,14 +66,14 @@ npm run build
 
 The optimized production build will be generated in the `dist/` directory.
 
-## ?? License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## ?? Contributing
+## Contributing
 
 Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
 
-## ?? Contact
+## Contact
 
 For any inquiries, please visit the contact page on the live site.
