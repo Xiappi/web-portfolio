@@ -3,14 +3,14 @@ import Icon from "@mdi/react";
 
 export default function ContactPage() {
   return (
-    <div className="pt-50 px-10">
-      <div className="p-10 flex flex-col justify-center ">
-        <h1 className="mb-4 text-5xl font-bold tracking-tight text-heading ">
+    <div className="pt-20 md:pt-32 lg:pt-50 px-4 md:px-6 lg:px-10">
+      <div className="p-4 md:p-6 lg:p-10 flex flex-col justify-center ">
+        <h1 className="mb-4 text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight text-heading ">
           Let's Get in Touch
         </h1>
       </div>
-      <div className="pl-10">
-        <p className="mb-6 text-lg font-normal text-body">
+      <div className="px-4 md:px-6 lg:pl-10">
+        <p className="mb-6 text-base md:text-lg font-normal text-body">
           Thank you for visiting my portfolio! I'm always excited to connect
           with fellow developers, potential collaborators, or anyone interested
           in my work. Whether you have a question about my projects, want to
@@ -27,11 +27,11 @@ export default function ContactPage() {
           the nature of the request. I look forward to hearing from you!
         </p>
       </div>
-      <div className="flex flex-col gap-4 p-10">
+      <div className="flex flex-col gap-3 md:gap-4 p-4 md:p-6 lg:p-10">
         <a
           href="https://github.com/Xiappi"
           target="_blank"
-          className="inline-flex items-center mt-4 text-blue-600 hover:underline"
+          className="inline-flex items-center text-blue-600 hover:underline"
         >
           <Icon path={mdiGithub} size={1} />
           <span className="ml-2">Follow me on GitHub</span>
@@ -39,7 +39,7 @@ export default function ContactPage() {
         <a
           href="https://www.linkedin.com/in/adam-mattatall-306b84180/"
           target="_blank"
-          className="inline-flex items-center mt-4 text-blue-600 hover:underline"
+          className="inline-flex items-center text-blue-600 hover:underline"
         >
           <Icon path={mdiLinkedin} size={1} />
           <span className="ml-2">Follow me on LinkedIn</span>
@@ -47,7 +47,7 @@ export default function ContactPage() {
         <a
           href="mailto:mattatalladam@gmail.com"
           target="_blank"
-          className="inline-flex items-center mt-4 text-blue-600 hover:underline"
+          className="inline-flex items-center text-blue-600 hover:underline"
         >
           <Icon path={mdiEmail} size={1} />
           <span className="ml-2">Email me</span>

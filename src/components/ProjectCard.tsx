@@ -7,7 +7,7 @@ export default function ProjectCardComponent({
   projectCard: ProjectCard;
 }) {
   return (
-    <div className="flex flex-col justify-evenly w-[22rem] min-h-100 rounded-3xl p-6 shadow-md transition delay-75 ease-in-out hover:-translate-y-1 hover:scale-105 hover:shadow-xl bg-white cursor-pointer hover:bg-gray-50">
+    <div className="flex flex-col justify-evenly w-full max-w-[22rem] min-h-100 rounded-3xl p-4 md:p-6 shadow-md transition delay-75 ease-in-out hover:-translate-y-1 hover:scale-105 hover:shadow-xl bg-white cursor-pointer hover:bg-gray-50">
       <div className="inline-block text-sm font-bold">
         <Icon path={projectCard.icon} size={2} />
       </div>
