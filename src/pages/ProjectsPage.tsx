@@ -4,13 +4,13 @@ import type Project from "../models/Project";
 
 export default function ProjectsPage() {
   return (
-    <div className="pt-20 md:pt-32 lg:pt-50 px-4 md:px-6 lg:px-10">
-      <div className="p-4 md:p-6 lg:p-10 flex flex-col justify-center ">
+    <div className="pt-40 px-4 md:px-6 lg:px-10">
+      <div className="px-4 md:px-6 lg:px-10 flex flex-col justify-center ">
         <h1 className="mb-4 text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight text-heading ">
           Here are some of my projects
         </h1>
       </div>
-      <div className="px-4 md:px-6 lg:pl-10">
+      <div className=" bg-white/90 backdrop-blur-sm rounded-3xl shadow-md p-4 md:px-6 lg:pl-10">
         <p className="mb-6 text-base md:text-lg font-normal text-body">
           This page highlights the projects that define my growth as a
           developer, built with the tools I love most, including (but not

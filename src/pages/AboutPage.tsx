@@ -4,8 +4,8 @@ import profile2 from "../assets/profile-2.png";
 
 export default function About() {
   return (
-    <div className="  w-full pt-20 md:pt-28 lg:pt-40 px-4 md:px-8 lg:px-12 flex justify-center">
-      <div className="  max-w-5xl w-full grid grid-cols-1 lg:grid-cols-[minmax(0,2fr)_minmax(0,1.2fr)] gap-10">
+    <div className="w-full pt-20 md:pt-28 lg:pt-40 px-4 md:px-8 lg:px-12 flex justify-center">
+      <div className="max-w-5xl w-full grid grid-cols-1 lg:grid-cols-[minmax(0,2fr)_minmax(0,1.2fr)] gap-10">
         <div className="lg:col-span-2">
           <h1 className="mb-4 text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight text-heading">
             Full-stack software engineer from Nova Scotia, building reliable
