@@ -22,28 +22,33 @@ export default function HomePage() {
             things better, and I am always looking for new challenges and
             opportunities to grow as a developer.
           </p>
-          <div className="flex flex-col sm:flex-row gap-3 md:gap-4">
+          <div className="flex flex-col md:flex-row gap-2 w-full">
             <a
               href="https://github.com/Xiappi"
               target="_blank"
-              className="inline-flex items-center text-blue-600 hover:underline"
+              rel="noreferrer"
+              className="inline-flex items-center justify-center rounded-full border border-blue-600 text-blue-600 px-4 py-2 text-sm font-medium hover:bg-blue-50 transition"
             >
-              <Icon path={mdiGithub} size={1} />
+              <Icon path={mdiGithub} size={0.9} />
               <span className="ml-2">GitHub</span>
             </a>
+
             <a
               href="https://www.linkedin.com/in/adam-mattatall-306b84180/"
               target="_blank"
-              className="inline-flex items-center text-blue-600 hover:underline"
+              rel="noreferrer"
+              className="inline-flex items-center justify-center rounded-full border border-blue-600 text-blue-600 px-4 py-2 text-sm font-medium hover:bg-blue-50 transition"
             >
-              <Icon path={mdiLinkedin} size={1} />
+              <Icon path={mdiLinkedin} size={0.9} />
               <span className="ml-2">LinkedIn</span>
             </a>
             <a
               href="mailto:mattatalladam@gmail.com"
-              className="inline-flex items-center text-blue-600 hover:underline"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center justify-center rounded-full border border-blue-600 text-blue-600 px-4 py-2 text-sm font-medium hover:bg-blue-50 transition"
             >
-              <Icon path={mdiEmail} size={1} />
+              <Icon path={mdiEmail} size={0.9} />
               <span className="ml-2">Email</span>
             </a>
           </div>
